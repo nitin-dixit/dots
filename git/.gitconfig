@@ -11,3 +11,11 @@
 	clean = git-lfs clean -- %f
 [merge]
 	tool = nvimdiff
+
+[url "git@github-nitin:"]
+    insteadOf = git@github.com:nitin-dixit/
+    insteadOf = https://github.com/nitin-dixit/
+
+[url "git@github-nitinx:"]
+    insteadOf = git@github.com:nitinXdixit/
+    insteadOf = https://github.com/nitinXdixit/
