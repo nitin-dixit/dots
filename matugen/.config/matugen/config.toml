@@ -54,15 +54,6 @@ input_path = '~/.config/matugen/templates/btop.theme'
 output_path = '~/.config/btop/themes/matugen.theme'
 post_hook = 'pkill -USR2 btop || true'
 
-[templates.pywalfox]
-input_path = '.config/matugen/templates/pywalfox/colors.json'-colo
-output_path = '~/.cache/wal/colors.json'
-post_hook = 'pywalfox update'
-
-[templates.obsidian]
-input_path = '~/.config/matugen/templates/obsidian.css'
-output_path = "~/Developer/nitin-dixit/Obsidian vaults/Nitin's Vault/'s Vault/.obsidian/snippets/"
-
 [templates.nvim]
 input_path = '~/.config/matugen/templates/nvim-colors.vim'
 output_path = '~/.config/nvim/colors/matugen.vim'

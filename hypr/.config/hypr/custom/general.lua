@@ -10,7 +10,7 @@ hl.config({
 	},
 	decoration = {
 		blur = {
-			enabled = true,
+			enabled = false,
 			size = 3,
 			passes = 4,
 			new_optimizations = true,
@@ -18,12 +18,8 @@ hl.config({
 			xray = true,
 		},
 		shadow = {
-			enabled = true,
+			enabled = false,
 		},
 	},
-})
--- Set opacity to 1.0 active, 0.5 inactive and 0.8 fullscreen for kitty
-hl.window_rule({
-	match = { class = "kitty" },
-	opacity = "0.8 override 0.5 override 0.8 override",
+  mi
 })
