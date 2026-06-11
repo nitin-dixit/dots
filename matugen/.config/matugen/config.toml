@@ -54,11 +54,6 @@ input_path = '~/.config/matugen/templates/btop.theme'
 output_path = '~/.config/btop/themes/matugen.theme'
 post_hook = 'pkill -USR2 btop || true'
 
-[templates.nvim]
-input_path = '~/.config/matugen/templates/nvim-colors.vim'
-output_path = '~/.config/nvim/colors/matugen.vim'
-post_hook = 'pkill -SIGUSR1 nvim'
-
 [templates.opencode]
 input_path = '~/.config/matugen/templates/opencode.json'
 output_path = '~/.config/opencode/themes/matugen.json'
