@@ -11,6 +11,9 @@ hl.bind("SUPER+ALT+L", hl.dsp.focus({ direction = "r" }))
 
 hl.unbind("SUPER + K", hl.dsp.global("quickshell:oskToggle"), { description = "Shell: Toggle on-screen keyboard" })
 hl.bind("SUPER + SHIFT+K ", hl.dsp.global("quickshell:oskToggle"), { description = "Shell: Toggle on-screen keyboard" })
+--
+-- default keybind for toggle bar unbound
+hl.unbind("SUPER + J", hl.dsp.global("quickshell:barToggle"), { description = "Shell: Toggle bar" })
 -- Cycle next
 hl.bind("SUPER+j", hl.dsp.window.cycle_next())
 hl.bind("SUPER+j", hl.dsp.window.fullscreen_state({ internal = 1, client = 0, action = "toggle" }))
@@ -19,9 +22,6 @@ hl.bind("SUPER+j", hl.dsp.window.fullscreen_state({ internal = 1, client = 0, ac
 hl.bind("SUPER+k", hl.dsp.window.cycle_next({ prev }))
 hl.bind("SUPER+k", hl.dsp.window.fullscreen_state({ internal = 1, client = 0, action = "toggle" }))
 
--- apps
-hl.unbind("SUPER + T", hl.dsp.exec_cmd(terminal))
-
--- toggle bar
-hl.unbind("SUPER + J", hl.dsp.global("quickshell:barToggle"), { description = "Shell: Toggle bar" })
-hl.bind("SUPER + T", hl.dsp.global("quickshell:barToggle"), { description = "Shell: Toggle bar" })
+--  unbind terminal default keybind to toogle bar
+hl.unbind("SUPER + Return", hl.dsp.exec_cmd(terminal), { description = "App: Terminal" })
+hl.bind("SUPER + Return", hl.dsp.global("quickshell:barToggle"), { description = "Shell: Toggle bar" })

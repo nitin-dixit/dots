@@ -21,5 +21,7 @@ hl.config({
 			enabled = false,
 		},
 	},
-  mi
+	animations = {
+		enabled = false,
+	},
 })
