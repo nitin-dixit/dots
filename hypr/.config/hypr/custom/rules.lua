@@ -3,3 +3,8 @@
 
 -- Disable blur for every window
 -- hl.window_rule({ match = { class = ".*" }, no_blur = false })
+
+hl.window_rule({
+	match = { class = "kitty" },
+	opacity = 0.9,
+})
