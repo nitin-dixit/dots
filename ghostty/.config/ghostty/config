@@ -23,8 +23,8 @@
 # Cycles are not allowed. If a cycle is detected, an error will be logged and
 # the configuration file will be ignored.
 #config-file = ghostty-theme
-theme = "Matugen"
-
+theme = Matugen
+config-file= ./auto/theme.ghostty
 #custom theme 
 gtk-custom-css = tab-style.css
 
@@ -344,7 +344,7 @@ split-divider-color = #524f67
 #shell-integration-features = cursor, sudo, title
 clipboard-read = allow
 clipboard-write = allow
-window-theme = ghostty
+# window-theme = ghostty
 alpha-blending=native
 window-decoration = auto
 # The opacity level (opposite of transparency) of an unfocused split.
