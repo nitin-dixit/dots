@@ -21,9 +21,90 @@ set recolor true
 
 set recolor-keephue true
 
-set highlight-color           rgba(147,153,178,0.3)
+# set highlight-color           
 set highlight-fg              rgba(205,214,244,1)
 
 set statusbar-basename true
 set statusbar-page-percent true
 set statusbar-home-tilde true
+
+
+# ==================================================
+# Zathura - Catppuccin Mocha Black Edition
+# ==================================================
+
+set guioptions ""
+
+# --------------------------------------------------
+# Main document colors
+# --------------------------------------------------
+
+set default-bg "#000000"
+set default-fg "#cdd6f4"
+
+# --------------------------------------------------
+# Recolor mode
+# --------------------------------------------------
+
+set recolor true
+set recolor-keephue true
+set recolor-lightcolor "#000000"
+set recolor-darkcolor "#cdd6f4"
+set recolor-reverse-video true
+
+# --------------------------------------------------
+# Status bar
+# --------------------------------------------------
+
+set statusbar-bg "#000000"
+set statusbar-fg "#cdd6f4"
+
+# --------------------------------------------------
+# Input bar
+# --------------------------------------------------
+
+set inputbar-bg "#000000"
+set inputbar-fg "#cdd6f4"
+
+# --------------------------------------------------
+# Notifications
+# --------------------------------------------------
+
+set notification-bg "#000000"
+set notification-fg "#cdd6f4"
+
+# --------------------------------------------------
+# Completion menu
+# --------------------------------------------------
+
+set completion-bg "#000000"
+set completion-fg "#cdd6f4"
+
+set completion-group-bg "#000000"
+set completion-group-fg "#89b4fa"
+
+set completion-highlight-bg "#cba6f7"
+set completion-highlight-fg "#000000"
+
+# --------------------------------------------------
+# Index / Table of Contents
+# --------------------------------------------------
+
+set index-bg "#000000"
+set index-fg "#cdd6f4"
+
+set index-active-bg "#cba6f7"
+set index-active-fg "#000000"
+
+# --------------------------------------------------
+# Highlights
+# --------------------------------------------------
+
+set highlight-color rgba(69, 71, 90, 0.25)
+set highlight-active-color rgba(203, 166, 247, 0.45)
+
+# --------------------------------------------------
+# Selection
+# --------------------------------------------------
+
+set selection-clipboard clipboard
