@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=62
+NumberOfEntries=66
 File1=/mnt/hdd/Frontend Masters/go/Complete Go for Professional Developers/08 - Authentication/03-Validating User Data - Complete Go for Professional Developers F.mp4
 Title1=03-Validating User Data - Complete Go for Professional Developers F
 Length1=499
@@ -269,4 +269,18 @@ File62=http://127.0.0.1:11470/37045b35e1060c37cf0d1b87750c63b97387ac35/0?
 Title62=0?
 Length62=6970
 QMPlay_length62=6970.372
-QMPlay_flags62=1
+File63=YouTube://{https://youtu.be/VEetaDgnfJM?si=3VK4EJhU5BU7X7hM}
+Title63=You Just Don't Want It Enough.
+Length63=1340
+QMPlay_length63=1340.381
+File64=YouTube://{https://www.youtube.com/watch?v=88ExZwnCU44}
+Title64=Study Music - 1 Hour Of Concentration Music for Studying and Memorizing
+Length64=3600
+QMPlay_length64=3600.041
+File65=YouTube://{https://www.youtube.com/watch?v=_4kHxtiuML0}
+Title65=https://www.youtube.com/watch?v=_4kHxtiuML0
+File66=YouTube://{https://www.youtube.com/watch?v=WPni755-Krg}
+Title66=Study Music Alpha Waves: Relaxing Studying Music, Brain Power, Focus Concentration Music, ☯161
+Length66=10797
+QMPlay_length66=10797.201
+QMPlay_flags66=1

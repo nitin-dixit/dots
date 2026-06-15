@@ -1,4 +1,5 @@
 hl.bind("XF86Calculator", hl.dsp.exec_cmd("gnome-calculator"))
+hl.bind("SUPER+Z", hl.dsp.exec_cmd("zathura"))
 -- Focus movement (Super+Alt + h,j,k,l)
 hl.bind("SUPER+ALT+H", hl.dsp.focus({ direction = "l" }))
 hl.bind("SUPER+ALT+J", hl.dsp.focus({ direction = "d" }))
