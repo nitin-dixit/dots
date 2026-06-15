@@ -1,33 +1,30 @@
-set window-title-basename "true"
+set window-title-basename true
 set window-title-page true
-set selection-clipboard "clipboard"
 
 # zoom
 map <C-i> zoom in
 map <C-o> zoom out
 
 # zoom and scroll step size
-set zoom-step 20
+set zoom-step 1
 set scroll-step 80
 
-# enable incremental search
-set incremental-search true
+set advance-pages-per-row true
+set show-hidden true
+set continuous-hist-save true
+
+set database "sqlite"
+set pages-per-row 3
 
 map <C-b> feedkeys ":bmark "
 map i recolor
 set adjust-open width
 
-set recolor true
-
-set recolor-keephue true
-
-# set highlight-color           
-set highlight-fg              rgba(205,214,244,1)
-
 set statusbar-basename true
 set statusbar-page-percent true
 set statusbar-home-tilde true
 
+set font "JetBrains Mono Regular 11"
 
 # ==================================================
 # Zathura - Catppuccin Mocha Black Edition
@@ -102,7 +99,7 @@ set index-active-fg "#000000"
 
 set highlight-color rgba(69, 71, 90, 0.25)
 set highlight-active-color rgba(203, 166, 247, 0.45)
-
+set highlight-fg rgba(205,214,244,1)
 # --------------------------------------------------
 # Selection
 # --------------------------------------------------
