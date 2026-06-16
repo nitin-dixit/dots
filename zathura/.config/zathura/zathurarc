@@ -14,8 +14,6 @@ set show-hidden true
 set continuous-hist-save true
 
 set database "sqlite"
-set pages-per-row 3
-
 map <C-b> feedkeys ":bmark "
 map i recolor
 set adjust-open width
