@@ -23,3 +23,8 @@ hl.window_rule({
 	match = { class = "org.pwmt.zathura" },
 	opacity = 0.91,
 })
+
+hl.window_rule({
+	match = { class = "org.gnome.SystemMonitor" },
+	opacity = 0.91,
+})

@@ -1,5 +1,5 @@
 [playlist]
-NumberOfEntries=66
+NumberOfEntries=73
 File1=/mnt/hdd/Frontend Masters/go/Complete Go for Professional Developers/08 - Authentication/03-Validating User Data - Complete Go for Professional Developers F.mp4
 Title1=03-Validating User Data - Complete Go for Professional Developers F
 Length1=499
@@ -186,7 +186,6 @@ File39=YouTube://{https://www.youtube.com/watch?v=czgm5uaO3gI}
 Title39=Lutt Le Gaya - Lyrical | Dhurandhar | Ranveer Singh, Akshaye Khanna, Shashwat Sachdev, Simran C
 Length39=258
 QMPlay_length39=257.741
-QMPlay_flags39=1
 File40=YouTube://{https://www.youtube.com/watch?v=Kr1ncWYhof8}
 Title40=AAKHRI ISHQ (Video) | Dhurandhar The Revenge | Ranveer Singh | Shashwat Sachdev,Jubin N,Irshad K
 Length40=221
@@ -225,62 +224,79 @@ File50=http://127.0.0.1:11471/fed3d81a717ece0e5e05225dbcca7d166bf3fafe/0
 Title50=0
 Length50=6163
 QMPlay_length50=6163.221
-File51=YouTube://{https://www.youtube.com/watch?v=BMuknRb7woc}
-Title51=Classical Music for Studying & Brain Power | Mozart, Vivaldi, Tchaikovsky...
-Length51=5756
-QMPlay_length51=5755.761
-File52=http://127.0.0.1:11470/9e015ed1f5fa213910f8bdccce901674f5a344e0/3
-Title52=3
-Length52=2816
-QMPlay_length52=2815.73
-File53=http://127.0.0.1:11470/393ea89c1b3d33bd66adce99c4e04045cf9cead0/0?
-Title53=0?
-Length53=8590
-QMPlay_length53=8590.303
-File54=https://87d6a6ef6b58-webstreamrmbg.baby-beamup.club/%7B%22multi%22%3A%22on%22%2C%22en%22%3A%22on%22%7D/extract/?index=0&url=https%3A%2F%2Fhubcloud.foo%2Fdrive%2Fi1jlbqq1iqebssj
-Title54=No Time To Die (2021) 2160p 10bit UHD BluRay DoVi HDR HEVC [Hindi DDP 5.1 + English TrueHD.Atmos 7.1] H.265 (W4NK3R-blackHAWK)
-Length54=9876
-QMPlay_length54=9875.926
-File55=http://127.0.0.1:11470/23fbe79097683cffa4cd4f386bf2c3d4d497139f/0?
-Title55=0?
-File56=http://127.0.0.1:11470/5124eddf71101ada021936cbf26988cfdf0cb44a/0?
-Title56=No Time to Die (2021) 2160p H265 10 bit DV HDR10+ ita eng AC3 5.1 sub ita Licdom
-Length56=9814
-QMPlay_length56=9813.846
-File57=/home/nitin/Downloads/ABDM/Videos/IN.THE.GREY.2026.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-SCOPE.mkv
-Title57=IN.THE.GREY.2026.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-SCOPE
-Length57=5812
-QMPlay_length57=5811.744
-File58=YouTube://{https://www.youtube.com/watch?v=ZtUJ7QjtHrI}
-Title58=IN THE GREY Official Trailer (2026) Henry Cavill, Jake Gyllenhaal
-Length58=155
-QMPlay_length58=154.561
-File59=YouTube://{https://www.youtube.com/watch?v=aMw7rDlpSG4}
-Title59=IN THE GREY | Official Trailer (2026) 4K
-Length59=160
-QMPlay_length59=160.361
-QMPlay_flags59=2
-File60=http://127.0.0.1:11470/fe95fa39a5498d050ec65867b5b9eecddd128fde/1657?
-Title60=1657?
-File61=http://127.0.0.1:11470/f511d8684309293d1ab59be1ed8d303ad104fbf3/0?
-Title61=The.Nice.Guys.2016.1080p.BluRay.x265-RARBG
-Length61=6957
-QMPlay_length61=6957.119
-File62=http://127.0.0.1:11470/37045b35e1060c37cf0d1b87750c63b97387ac35/0?
-Title62=0?
-Length62=6970
-QMPlay_length62=6970.372
-File63=YouTube://{https://youtu.be/VEetaDgnfJM?si=3VK4EJhU5BU7X7hM}
-Title63=You Just Don't Want It Enough.
-Length63=1340
-QMPlay_length63=1340.381
-File64=YouTube://{https://www.youtube.com/watch?v=88ExZwnCU44}
-Title64=Study Music - 1 Hour Of Concentration Music for Studying and Memorizing
-Length64=3600
-QMPlay_length64=3600.041
-File65=YouTube://{https://www.youtube.com/watch?v=_4kHxtiuML0}
-Title65=https://www.youtube.com/watch?v=_4kHxtiuML0
-File66=YouTube://{https://www.youtube.com/watch?v=WPni755-Krg}
-Title66=Study Music Alpha Waves: Relaxing Studying Music, Brain Power, Focus Concentration Music, ☯161
-Length66=10797
-QMPlay_length66=10797.201
+File51=http://127.0.0.1:11470/9e015ed1f5fa213910f8bdccce901674f5a344e0/3
+Title51=3
+Length51=2816
+QMPlay_length51=2815.73
+File52=http://127.0.0.1:11470/393ea89c1b3d33bd66adce99c4e04045cf9cead0/0?
+Title52=0?
+Length52=8590
+QMPlay_length52=8590.303
+File53=https://87d6a6ef6b58-webstreamrmbg.baby-beamup.club/%7B%22multi%22%3A%22on%22%2C%22en%22%3A%22on%22%7D/extract/?index=0&url=https%3A%2F%2Fhubcloud.foo%2Fdrive%2Fi1jlbqq1iqebssj
+Title53=No Time To Die (2021) 2160p 10bit UHD BluRay DoVi HDR HEVC [Hindi DDP 5.1 + English TrueHD.Atmos 7.1] H.265 (W4NK3R-blackHAWK)
+Length53=9876
+QMPlay_length53=9875.926
+File54=http://127.0.0.1:11470/23fbe79097683cffa4cd4f386bf2c3d4d497139f/0?
+Title54=0?
+File55=http://127.0.0.1:11470/5124eddf71101ada021936cbf26988cfdf0cb44a/0?
+Title55=No Time to Die (2021) 2160p H265 10 bit DV HDR10+ ita eng AC3 5.1 sub ita Licdom
+Length55=9814
+QMPlay_length55=9813.846
+File56=/home/nitin/Downloads/ABDM/Videos/IN.THE.GREY.2026.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-SCOPE.mkv
+Title56=IN.THE.GREY.2026.2160p.AMZN.WEB-DL.DDP5.1.Atmos.H.265-SCOPE
+Length56=5812
+QMPlay_length56=5811.744
+File57=YouTube://{https://www.youtube.com/watch?v=ZtUJ7QjtHrI}
+Title57=IN THE GREY Official Trailer (2026) Henry Cavill, Jake Gyllenhaal
+Length57=155
+QMPlay_length57=154.561
+File58=YouTube://{https://www.youtube.com/watch?v=aMw7rDlpSG4}
+Title58=IN THE GREY | Official Trailer (2026) 4K
+Length58=160
+QMPlay_length58=160.361
+QMPlay_flags58=2
+File59=http://127.0.0.1:11470/fe95fa39a5498d050ec65867b5b9eecddd128fde/1657?
+Title59=1657?
+File60=http://127.0.0.1:11470/f511d8684309293d1ab59be1ed8d303ad104fbf3/0?
+Title60=The.Nice.Guys.2016.1080p.BluRay.x265-RARBG
+Length60=6957
+QMPlay_length60=6957.119
+File61=http://127.0.0.1:11470/37045b35e1060c37cf0d1b87750c63b97387ac35/0?
+Title61=0?
+Length61=6970
+QMPlay_length61=6970.372
+File62=YouTube://{https://youtu.be/VEetaDgnfJM?si=3VK4EJhU5BU7X7hM}
+Title62=You Just Don't Want It Enough.
+Length62=1340
+QMPlay_length62=1340.381
+File63=YouTube://{https://www.youtube.com/watch?v=88ExZwnCU44}
+Title63=Study Music - 1 Hour Of Concentration Music for Studying and Memorizing
+Length63=3600
+QMPlay_length63=3600.041
+File64=YouTube://{https://www.youtube.com/watch?v=_4kHxtiuML0}
+Title64=https://www.youtube.com/watch?v=_4kHxtiuML0
+File65=YouTube://{https://www.youtube.com/watch?v=WPni755-Krg}
+Title65=Study Music Alpha Waves: Relaxing Studying Music, Brain Power, Focus Concentration Music, ☯161
+Length65=10797
+QMPlay_length65=10797.201
+File66=YouTube://{https://www.youtube.com/watch?v=BMuknRb7woc}
+Title66=Classical Music for Studying & Brain Power | Mozart, Vivaldi, Tchaikovsky...
+Length66=5756
+QMPlay_length66=5755.761
+File67=http://www.101smoothjazz.com/101-smoothjazz.m3u
+Title67=101-smoothjazz.m3u
+QMPlay_GID67=3
+File68=http://jking.cdnstream1.com/b22139_128mp3
+Title68=101 SMOOTH JAZZ EAST
+QMPlay_parent68=3
+File69=https://icecast.walmradio.com:8443/jazz
+Title69=Adroit Jazz Underground
+File70=https://ais-sa2.cdnstream1.com/2210_128.mp3
+Title70=Splash Love
+File71=http://radio.stereoscenic.com/ama-s
+Title71=a.m. ambient
+File72=http://relax.stream.publicradio.org/relax.mp3
+Title72=/relax.mp3
+File73=https://0nlineradio.radioho.st/0r-lo-fi?ref=radio-browser26
+Title73=0R_lofi
+QMPlay_flags73=1
