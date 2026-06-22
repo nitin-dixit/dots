@@ -84,7 +84,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize aliases alias-finder archlinux history zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat zsh-interactive-cd fzf eza golang vi-mode globalias volta)
+plugins=(git colorize aliases copybuffer copyfile copypath alias-finder archlinux history zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat zsh-interactive-cd fzf eza golang vi-mode globalias volta)
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 

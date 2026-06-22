@@ -21,10 +21,15 @@ hl.window_rule({
 
 hl.window_rule({
 	match = { class = "org.pwmt.zathura" },
-	opacity = 0.91,
+	opacity = 0.9,
 })
 
 hl.window_rule({
 	match = { class = "org.gnome.SystemMonitor" },
+	opacity = 0.91,
+})
+
+hl.window_rule({
+	match = { class = "equibop" },
 	opacity = 0.91,
 })
