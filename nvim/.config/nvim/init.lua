@@ -42,4 +42,3 @@ hi LineNr guifg=#6c7086
   highlight StatusLine guibg=none
   highlight Winbar guibg=none
 ]]
-
