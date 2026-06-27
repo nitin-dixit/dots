@@ -8,14 +8,13 @@ palette = "catppuccin_macchiato"
 # Starship modules
 [character]
 # Note the use of Catppuccin color 'peach'
-success_symbol = "[[󰄛](green) ❯](peach)"
-error_symbol = "[[󰄛](red) ❯](peach)"
-vimcmd_symbol = "[󰄛 ❮](subtext1)" # For use with zsh-vi-mode
+success_symbol = "[[󰣇](sapphire) ❯](peach)"
+error_symbol = "[[࿗ ](red)❯](peach)"
+vimcmd_symbol = "[[ ](bold green)❮](subtext1)" # For use with zsh-vi-mode
 
 [battery]
 disabled = true
 
-continuation_prompt = '▶▶ (red)'
 
 [golang]
 symbol = " "
@@ -141,4 +140,3 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
-

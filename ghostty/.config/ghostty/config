@@ -152,7 +152,7 @@ window-padding-x = 4
 # top padding to 2 and the bottom padding to 4. If you want to set both
 # paddings to the same value, you can use a single value. For example,
 # `window-padding-y = 2` will set both paddings to 2.
-window-padding-y = 0
+ window-padding-y = 0
 window-padding-color = extend-always
 window-padding-balance = true
 window-title-font-family = "CaskaydiaCove NF"
@@ -340,7 +340,7 @@ copy-on-select = clipboard
 cursor-color = cell-foreground
 cursor-text = cell-background
 
-split-divider-color = #524f67
+split-divider-color = #a285c6
 #shell-integration-features = cursor, sudo, title
 clipboard-read = allow
 clipboard-write = allow
