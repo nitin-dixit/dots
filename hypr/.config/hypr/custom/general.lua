@@ -20,6 +20,7 @@ hl.config({
 		shadow = {
 			enabled = false,
 		},
+		dim_inactive = false,
 	},
 	animations = {
 		enabled = false,

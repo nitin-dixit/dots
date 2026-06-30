@@ -1,7 +1,7 @@
 hl.bind("XF86Calculator", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind("SUPER+Z", hl.dsp.exec_cmd("zathura"))
 hl.bind("SUPER+P", hl.dsp.exec_cmd("superproductivity"))
-hl.bind("SUPER + ALT + Q", hl.dsp.exec_cmd("qmplay2"))
+hl.bind("SUPER + ALT + Q", hl.dsp.exec_cmd("QMPlay2"))
 
 -- Focus movement (Super+Alt + h,j,k,l)
 hl.bind("SUPER+ALT+H", hl.dsp.focus({ direction = "l" }))
