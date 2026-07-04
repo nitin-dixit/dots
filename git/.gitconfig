@@ -19,3 +19,5 @@
 [url "git@github-nitinx:nitinXdixit/"]
     insteadOf = git@github.com:nitinXdixit/
     insteadOf = https://github.com/nitinXdixit/
+[fetch]
+	prune = true
