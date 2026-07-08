@@ -220,6 +220,9 @@ bindkey -r "^G"
 # starship prompt
 #eval "$(starship init zsh)"
 
+# greeting message
+source ~/.config/zshrc.d/greeting.zsh
+
 export PATH="$PATH:/usr/local/bin"
 source ~/.config/zshrc.d/auto-Hypr.sh
 eval "$(zoxide init --cmd cd zsh)"
@@ -229,10 +232,9 @@ eval "$(zoxide init --cmd cd zsh)"
 [ -s "/home/nitin/.bun/_bun" ] && source "/home/nitin/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
-#
- figlet -f ~/.local/share/fonts/Big\ Money-nw "Learn" | lolcat
- fortune ~/quotes| cowsay -f tux | lolcat
-export PATH=$PATH:/usr/local/go/bin
-export PATH="$PATH:$(go env GOPATH)/bin"
+
+
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
 
 export PATH=$PATH:/home/nitin/.spicetify
