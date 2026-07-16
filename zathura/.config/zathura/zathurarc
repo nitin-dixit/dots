@@ -22,7 +22,7 @@ set statusbar-basename true
 set statusbar-page-percent true
 set statusbar-home-tilde true
 
-set font "JetBrains Mono Regular 11"
+set font "JetBrains Mono Regular 10"
 
 # ==================================================
 # Zathura - Catppuccin Mocha Black Edition
@@ -45,7 +45,7 @@ set recolor true
 set recolor-keephue true
 set recolor-lightcolor "#000000"
 set recolor-darkcolor "#cdd6f4"
-set recolor-reverse-video true
+set recolor-reverse-video false
 
 # --------------------------------------------------
 # Status bar

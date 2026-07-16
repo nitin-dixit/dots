@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+STARSHIP_CONFIG=${HOME}/.config/starship.toml
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
    eval "$(starship init zsh)"
 fi
@@ -238,3 +239,6 @@ export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 
 export PATH=$PATH:/home/nitin/.spicetify
+
+# opencode
+export PATH=/home/nitin/.opencode/bin:$PATH
