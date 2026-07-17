@@ -52,9 +52,9 @@ local greeting = function()
 
 	local greet = (
 		hour < 5 and "🌙 Burning the midnight oil"
-		or hour < 12 and "🌅 Good Morning"
-		or hour < 17 and "🌞 Good Afternoon"
-		or hour < 21 and "🌆 Good Evening"
+		or hour < 12 and "😎 Good Morning"
+		or hour < 17 and "🌻 Good Afternoon"
+		or hour < 21 and "✨ Good Evening"
 		or "😴 Good Night"
 	)
 
