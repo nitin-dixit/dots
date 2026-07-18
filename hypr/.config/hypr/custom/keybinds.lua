@@ -29,3 +29,23 @@ hl.bind("SUPER+k", hl.dsp.window.fullscreen_state({ internal = 1, client = 0, ac
 --  unbind terminal default keybind to toogle bar
 hl.unbind("SUPER + Return", hl.dsp.exec_cmd(terminal), { description = "App: Terminal" })
 hl.bind("SUPER + Return", hl.dsp.global("quickshell:barToggle"), { description = "Shell: Toggle bar" })
+
+-- 2-way scratchpad
+hl.unbind("SUPER + ALT + S")
+hl.bind(
+	"SUPER + ALT + S",
+	hl.dsp.exec_cmd([=[bash -lc '
+  addr="$(hyprctl activewindow -j | jq -r ".address")"
+  win_ws="$(hyprctl activewindow -j | jq -r ".workspace.name")"
+  target="$(hyprctl monitors -j | jq -r ".[] | select(.focused) | .activeWorkspace.name")"
+  if [ -z "$addr" ] || [ "$addr" = "null" ]; then
+    exit 0
+  fi
+  if [[ "$win_ws" == special:* ]]; then
+    hyprctl dispatch "hl.dsp.window.move({ workspace = \"$target\", window = \"address:$addr\" })"
+  else
+    hyprctl dispatch "hl.dsp.window.move({ workspace = \"special:special\", follow = false, window = \"address:$addr\" })"
+  fi
+  ']=]),
+	{ description = "Window: Toggle focused window to/from scratchpad" }
+)
