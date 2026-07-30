@@ -52,3 +52,9 @@ hl.window_rule({
 	opacity = 0.9,
 	no_blur = false,
 })
+
+hl.window_rule({
+	match = { class = "kitty-sinkswitch" },
+	float = true,
+	size = { "480", "160" },
+})

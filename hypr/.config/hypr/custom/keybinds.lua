@@ -49,3 +49,11 @@ hl.bind(
   ']=]),
 	{ description = "Window: Toggle focused window to/from scratchpad" }
 )
+
+-- sinkswitch keybind
+hl.bind(
+	"SUPER+X",
+	hl.dsp.exec_cmd(
+		"[workspace special:sinkswitch] kitty --class kitty-sinkswitch -e ~/scripts/sinkswitch.sh -exclude 46"
+	)
+)
