@@ -7,3 +7,4 @@ hl.env("XCURSOR_SIZE", "18")
 hl.env("TERMINAL", "com.mitchellh.ghostty")
 
 hl.env("BROWSER", "brave-browser-nightly")
+hl.env("QT_SCALE_FACTOR", "1")

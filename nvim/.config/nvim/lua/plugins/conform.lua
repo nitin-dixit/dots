@@ -7,5 +7,6 @@ return {
 		opts.formatters.sqlfluff = {
 			args = { "format", "--dialect=ansi", "-" },
 		}
+		opts.formatters_by_ft.qml = { "qmlformat" }
 	end,
 }

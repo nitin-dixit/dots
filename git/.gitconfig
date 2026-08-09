@@ -12,12 +12,5 @@
 [merge]
 	tool = nvimdiff
 
-[url "git@github-nitin:nitin-dixit/"]
-    insteadOf = git@github.com:nitin-dixit/
-    insteadOf = https://github.com/nitin-dixit/
-
-[url "git@github-nitinx:nitinXdixit/"]
-    insteadOf = git@github.com:nitinXdixit/
-    insteadOf = https://github.com/nitinXdixit/
 [fetch]
 	prune = true

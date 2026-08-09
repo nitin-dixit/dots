@@ -42,12 +42,6 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	match = { class = "equibop" },
-	opacity = 0.9,
-	no_blur = false,
-})
-
-hl.window_rule({
 	match = { class = "org.kde.dolphin" },
 	opacity = 0.9,
 	no_blur = false,
