@@ -52,3 +52,10 @@ hl.window_rule({
 	float = true,
 	size = { "480", "160" },
 })
+
+hl.window_rule({
+	match = { class = "com.stremio.Stremio" },
+	decorate = false,
+	no_blur = false,
+	opacity = 0.9,
+})

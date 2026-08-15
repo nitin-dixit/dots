@@ -14,9 +14,12 @@ vim.cmd([[
   hi VertSplit guibg=none ctermbg=none
   " hi SignColumn guibg=none ctermbg=none
   hi EndOfBuffer guibg=none ctermbg=none
-  hi CursorLine guibg=none
+  " hi CursorLine guibg=none
   hi StatusLine none
-hi LineNr guifg=#6c7086
+hi LineNr guifg=#585b70 guibg=none
+hi LineNrAbove guifg=#585b70 guibg=none
+hi LineNrBelow guifg=#585b70 guibg=none
+hi CursorLineNr guifg=#cdd6f4 guibg=none gui=bold
   hi NormalNC guibg=none ctermbg=none
   hi DiagnosticVirtualTextWarn none
   hi DiagnosticVirtualTextError none
