@@ -8,9 +8,10 @@ hl.config({
 			active_border = { colors = { "rgba(ca9ee6ff)", "rgba(f2d5cfff)", angle = 45 } },
 		},
 	},
+
 	decoration = {
 		blur = {
-			enabled = true,
+			enabled = false,
 			size = 2,
 			passes = 1,
 			new_optimizations = true,
@@ -28,7 +29,7 @@ hl.config({
 })
 
 local prod = function(ds)
-	return ds * 0.2
+	return ds * 0.7
 end
 
 hl.curve("macOpen", { type = "spring", mass = 1, stiffness = 110, dampening = 16 })

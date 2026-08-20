@@ -28,7 +28,7 @@ set font "JetBrains Mono Regular 10"
 # Zathura - Catppuccin Mocha Black Edition
 # ==================================================
 
-set guioptions ""
+set guioptions "sh"
 
 # --------------------------------------------------
 # Main document colors

@@ -2,6 +2,7 @@
 * GTK colors generated with Matugen
 * The source template is here: ~/.config/matugen/templates/gtk-3.0/gtk.css
 */
+@import 'colors.css';
 
 /* Accents */
 @define-color accent_color {{colors.primary.default.hex}};
