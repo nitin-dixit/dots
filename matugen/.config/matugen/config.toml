@@ -46,6 +46,9 @@ input_path = '~/.config/matugen/templates/ghostty'
 output_path = '~/.config/ghostty/themes/Matugen'
 post_hook = 'pkill -SIGUSR2 ghostty'
 
+[templates.starship]
+input_path = '~/.config/matugen/templates/starship-colors.toml'
+output_path = '~/.config/starship.toml'
 
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
