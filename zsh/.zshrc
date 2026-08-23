@@ -178,7 +178,6 @@ source /usr/share/zsh/plugins/pnpm-shell-completion/pnpm-shell-completion.zsh
 # fnm - Node Version Manager
 eval "$(fnm env --use-on-cd)"
 
-eval "$(zoxide init zsh)" # zoxide
 
 eval "$(fzf --zsh)" # fzf
 source ~/scripts/fzf-git.sh # fzf git

@@ -11,12 +11,19 @@ else
 fi
 
 quote=$(fortune ~/quotes)
+
+# Remove accidental leading/trailing blank lines.
+quote="${quote##$'\n'}"
+quote="${quote%%$'\n'}"
+
 if [[ "$quote" == *$'\n'* ]]; then
     text="${quote%%$'\n'*}"
     author="${quote#*$'\n'}"
 
-    printf '   “%s”\n' "$text"
-    printf '      %45s\n' "$author"
+    printf '  ~ “%s”\n' "$text"
+    printf '      %s\n' "$author"
 else
     printf '  ~ “%s”\n' "$quote"
 fi
+
+printf '\n'
