@@ -1,5 +1,5 @@
 "$schema" = 'https://starship.rs/config-schema.json'
-command_timeout = 1000
+
 palette = 'colors'
 
 
@@ -331,12 +331,12 @@ symbol = " "
 [zig]
 symbol = " "
 [palettes.colors]
-color1 = '#e9c16c'
-color2 = '#3f2e00'
-color3 = '#d0c5b4'
-color4 = '#231f17'
-color5 = '#3f2e00'
-color6 = '#17130b'
-color7 = '#17130b'
-color8 = '#e9c16c'
-color9 = '#b0cfaa'
+color1 = '#e5b5ff'
+color2 = '#4e0078'
+color3 = '#d1c2d4'
+color4 = '#241d26'
+color5 = '#4e0078'
+color6 = '#17111a'
+color7 = '#17111a'
+color8 = '#e5b5ff'
+color9 = '#ffb0cf'
