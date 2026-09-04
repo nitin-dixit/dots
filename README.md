@@ -3,8 +3,16 @@
 My personal dotfiles for Arch Linux, managed with GNU Stow.
 
 <p align="center">
-  <img src="./screenshots/screen.png" alt="Desktop Screenshot" width="900">
+  <img src="./screenshots/homescreen2.png" alt="Desktop Screenshot" width="900">
 </p>
+
+| Ghostty                                | Settings                                |
+| -------------------------------------- | --------------------------------------- |
+| ![ghostty](./screenshots/terminal.png) | ![settings](./screenshots/settings.png) |
+
+| SideBars / TopBar                            | Overview                                |
+| -------------------------------------------- | --------------------------------------- |
+| ![sidebars-topbar](./screenshots/topbar.png) | ![Overview](./screenshots/overview.png) |
 
 ## Environment
 
@@ -17,6 +25,8 @@ My personal dotfiles for Arch Linux, managed with GNU Stow.
 - Matugen
 - Git
 - User systemd services
+- end-4/illogical-impulse
+- quickshell
 
 ## Prerequisites
 
@@ -25,44 +35,6 @@ Install GNU Stow:
 ```bash
 sudo pacman -S stow
 ```
-
-## Repository Structure
-
-```text
-.
-├── ghostty
-├── git
-├── haruna
-├── hypr
-├── illogical-impulse
-├── kitty
-├── matugen
-├── nvim
-├── quotes
-├── ssh
-├── starship
-├── systemd
-├── zsh
-└── README.md
-```
-
-### Package Overview
-
-| Package           | Purpose                                         |
-| ----------------- | ----------------------------------------------- |
-| ghostty           | Ghostty terminal configuration                  |
-| git               | Git configuration                               |
-| haruna            | Haruna media player configuration               |
-| hypr              | Hyprland configuration                          |
-| illogical-impulse | Illogical Impulse Hyprland setup/customizations |
-| kitty             | Kitty terminal configuration                    |
-| matugen           | Dynamic color generation                        |
-| nvim              | Neovim (LazyVim) configuration                  |
-| quotes            | Personal quotes and notes                       |
-| ssh               | SSH client configuration (no private keys)      |
-| starship          | Starship prompt configuration                   |
-| systemd           | User systemd services and timers                |
-| zsh               | Zsh and Oh My Zsh configuration                 |
 
 ## Installation
 

@@ -17,15 +17,15 @@ hl.window_rule({
 })
 
 hl.window_rule({
-	match = { class = "superproductivity-bin" },
+	match = { class = "superproductivity" },
 	opacity = 0.9,
 	monitor = "eDP-1",
 	no_blur = false,
 })
 
 hl.window_rule({
-	match = { class = "obsidian" },
-	opacity = 0.9,
+	match = { class = "md.obsidian.Obsidian" },
+	opacity = 0.96,
 	no_blur = false,
 })
 hl.window_rule({

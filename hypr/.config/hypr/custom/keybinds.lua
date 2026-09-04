@@ -57,3 +57,6 @@ hl.bind(
 		"[workspace special:sinkswitch] kitty --class kitty-sinkswitch -e ~/scripts/sinkswitch.sh -exclude 46"
 	)
 )
+
+-- hyprwhspr
+hl.bind("SUPER+ALT+D", hl.dsp.exec_cmd("/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"))
