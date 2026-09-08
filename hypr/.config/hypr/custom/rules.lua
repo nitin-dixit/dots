@@ -18,16 +18,10 @@ hl.window_rule({
 
 hl.window_rule({
 	match = { class = "superproductivity" },
-	opacity = 0.9,
 	monitor = "eDP-1",
 	no_blur = false,
 })
 
-hl.window_rule({
-	match = { class = "md.obsidian.Obsidian" },
-	opacity = 0.96,
-	no_blur = false,
-})
 hl.window_rule({
 	match = { class = "org.pwmt.zathura" },
 	opacity = 0.9,
