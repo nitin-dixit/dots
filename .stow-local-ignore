@@ -1,0 +1,11 @@
+\.git
+\.gitignore
+\.gitmodules
+
+.+~          # emacs backup files
+\#.*\#       # emacs autosave files
+
+README.md
+LICENSE
+COPYING
+.stow-local-ignore
