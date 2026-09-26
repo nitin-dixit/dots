@@ -81,3 +81,8 @@ post_hook = 'spicetify watch -s 2>&1 | sed "/Reloaded Spotify/q"'
 input_path = "~/.config/matugen/templates/nvim-colors.json"
 output_path = "~/.cache/matugen/nvim-colors.json"
 post_hook = "pkill -SIGUSR1 nvim"
+
+[templates.ghostty_tabs]
+input_path = '~/.config/matugen/templates/ghostty-tabs.css'
+output_path = '~/.config/ghostty/tab-style.css'
+post_hook = 'pkill -SIGUSR2 ghostty'

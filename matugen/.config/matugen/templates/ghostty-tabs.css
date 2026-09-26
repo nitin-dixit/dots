@@ -28,14 +28,14 @@ tabbar tabbox {
 tabbar tabbox tab {
   margin: 0;
   padding: 0;
-  color: #cec3ce;
-  border-right: 1px solid #4b454d;
+  color: {{colors.on_surface_variant.default.hex}};
+  border-right: 1px solid {{colors.outline_variant.default.hex}};
   opacity: 0.8;
 }
 
 tabbar tabbox tab:selected {
-  background-color: #e0b8f6;
-  color: #422255;
+  background-color: {{colors.primary.default.hex}};
+  color: {{colors.on_primary.default.hex}};
 }
 
 tabbar tabbox tab label {
