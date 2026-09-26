@@ -5,8 +5,8 @@ vim.cmd([[
   hi lualine_x_normal guibg=none
   hi Normal guibg=none ctermbg=none
   hi NormalFloat guibg=none ctermbg=none
-  hi LineNr guifg=#585b70 guibg=none ctermbg=none
-  hi CursorLineNr guifg=#cba6f7 guibg=none gui=bold
+  " hi LineNr guifg=#585b70 guibg=none ctermbg=none
+  " hi CursorLineNr guifg=#cba6f7 guibg=none gui=bold
   hi Folded guibg=none ctermbg=none
   hi NonText guibg=none ctermbg=none
   hi SpecialKey guibg=none ctermbg=none
@@ -23,7 +23,7 @@ vim.cmd([[
   hi FloatBorder guibg=none
   hi IblScope guifg=#585b70
 
-  hi TabLineSel guibg=#a6e3a1 guifg=#11111b
-  hi TabLine  guifg=#cdd6f4
-  hi UfoFoldedEllipsis guifg=#181825 guibg=#cba6f7 gui=bold
+  " hi TabLineSel guibg=#a6e3a1 guifg=#11111b
+  " hi TabLine  guifg=#cdd6f4
+  " hi UfoFoldedEllipsis guifg=#181825 guibg=#cba6f7 gui=bold
   ]])

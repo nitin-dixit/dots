@@ -79,8 +79,8 @@
       "widgetsFactor": 1.2,
       "workspaceZoom": 1.07
     },
-    "thumbnailPath": "",
-    "wallpaperPath": "/home/nitin/Pictures/Wallpapers/vagabondxgutsgrey.png",
+    "thumbnailPath": "/home/nitin/.config/hypr/custom/scripts/mpvpaper_thumbnails/candlelit-book.2592x1440.mp4.jpg",
+    "wallpaperPath": "/home/nitin/Pictures/Wallpapers/wallpaper-theme-converter (8).png",
     "widgets": {
       "clock": {
         "cookie": {
@@ -93,7 +93,7 @@
           "hourMarks": true,
           "minuteHandStyle": "classic",
           "secondHandStyle": "classic",
-          "sides": 14,
+          "sides": 21,
           "timeIndicators": true,
           "useSineCookie": false
         },
@@ -216,7 +216,7 @@
   },
   "conflictKiller": {
     "autoKillNotificationDaemons": false,
-    "autoKillTrays": false
+    "autoKillTrays": true
   },
   "crosshair": {
     "code": "0;P;d;1;0l;10;0o;2;1b;0"

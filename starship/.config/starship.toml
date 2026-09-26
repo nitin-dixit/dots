@@ -332,12 +332,12 @@ symbol = " "
 [zig]
 symbol = " "
 [palettes.colors]
-color1 = '#e0b8f6'
-color2 = '#422255'
-color3 = '#cec3ce'
-color4 = '#221e24'
-color5 = '#422255'
-color6 = '#161217'
-color7 = '#161217'
-color8 = '#e0b8f6'
-color9 = '#f4b7b8'
+color1 = '#c8c8ae'
+color2 = '#31321f'
+color3 = '#c9c6c2'
+color4 = '#20201d'
+color5 = '#31321f'
+color6 = '#141311'
+color7 = '#141311'
+color8 = '#c8c8ae'
+color9 = '#c8c9a6'
