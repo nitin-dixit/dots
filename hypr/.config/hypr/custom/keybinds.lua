@@ -60,3 +60,6 @@ hl.bind(
 
 -- hyprwhspr
 hl.bind("SUPER+ALT+D", hl.dsp.exec_cmd("/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"))
+
+--lauch fuzzel launcher
+hl.bind("SUPER+Space", hl.dsp.exec_cmd("fuzzel"))

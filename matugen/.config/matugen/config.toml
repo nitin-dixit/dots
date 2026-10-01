@@ -13,10 +13,6 @@ output_path = '~/.config/hypr/hyprland/colors.lua'
 input_path = '~/.config/matugen/templates/hyprland/hyprlock-colors.conf'
 output_path = '~/.config/hypr/hyprlock/colors.conf'
 
-[templates.fuzzel]
-input_path = '~/.config/matugen/templates/fuzzel/fuzzel_theme.ini'
-output_path = '~/.config/fuzzel/fuzzel_theme.ini'
-
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk-3.0/gtk.css'
 output_path = '~/.config/gtk-3.0/colors.css'
@@ -86,3 +82,7 @@ post_hook = "pkill -SIGUSR1 nvim"
 input_path = '~/.config/matugen/templates/ghostty-tabs.css'
 output_path = '~/.config/ghostty/tab-style.css'
 post_hook = 'pkill -SIGUSR2 ghostty'
+
+[templates.fuzzel]
+input_path = '~/.config/matugen/templates/fuzzel.ini'
+output_path = '~/.config/fuzzel/colors.ini'
