@@ -87,13 +87,13 @@
                     "aiStyling": true,
                     "constantlyRotate": false,
                     "dateInClock": true,
-                    "dateStyle": "rect",
+                    "dateStyle": "bubble",
                     "dialNumberStyle": "full",
                     "hourHandStyle": "classic",
                     "hourMarks": true,
                     "minuteHandStyle": "classic",
                     "secondHandStyle": "classic",
-                    "sides": 14,
+                    "sides": 21,
                     "timeIndicators": true,
                     "useSineCookie": false
                 },
@@ -478,7 +478,7 @@
     },
     "sounds": {
         "battery": false,
-        "pomodoro": false,
+        "pomodoro": true,
         "theme": "freedesktop"
     },
     "time": {
