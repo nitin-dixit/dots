@@ -327,8 +327,8 @@ macos-icon = official
 # doing so.
 background-blur = true
 # mouse-hide-while-typing = true
-background-blur-radius = 40
-background-opacity = 0.88
+# background-blur-radius = 40
+background-opacity = 0.93
 
 #selection-invert-fg-bg = true
 bold-is-bright = true

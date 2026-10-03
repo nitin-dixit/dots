@@ -13,7 +13,7 @@ hl.window_rule({
 hl.window_rule({
 	match = { class = "com.mitchellh.ghostty" },
 	no_blur = false,
-	opacity = 0.95,
+	opacity = 0.9,
 })
 
 hl.window_rule({
