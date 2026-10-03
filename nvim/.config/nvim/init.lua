@@ -21,14 +21,14 @@ vim.cmd([[
   hi DiagnosticVirtualTextHint none
 
   hi FloatBorder guibg=none
-  hi IblScope guifg=#585b70
+  " hi IblScope guifg=#585b70
 
   hi TabLineSel guibg=#a6e3a1 guifg=#11111b
-  hi TabLine  guifg=#cdd6f4
+  " hi TabLine  guifg=#cdd6f4
   hi UfoFoldedEllipsis guifg=#181825 guibg=#cba6f7 gui=bold
   ]])
 vim.opt.termguicolors = true
 vim.opt.winblend = 0
 vim.api.nvim_set_hl(0, "SnacksDashboardHeader", { fg = "#cba6f7" })
 -- vim.api.nvim_set_hl(0, "Cursor", { fg = "#000000", bg = "#cba6f7" })
--- vim.api.nvim_set_hl(0, "CursorLine", { bg = "#f5c2e7", blend = 85 })
+vim.api.nvim_set_hl(0, "CursorLine", { bg = "none", underline = true })
