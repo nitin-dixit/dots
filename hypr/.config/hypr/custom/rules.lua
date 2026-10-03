@@ -42,9 +42,15 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	name = "scratchpad-kitty-sinkswitch",
 	match = { class = "kitty-sinkswitch" },
 	float = true,
-	size = { "480", "160" },
+	center = true,
+	animation = "slide bottom",
+	size = "480 140",
+	min_size = { 480, 140 },
+	max_size = { 480, 140 },
+	dim_around = true,
 })
 
 hl.window_rule({

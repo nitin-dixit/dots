@@ -53,9 +53,7 @@ hl.bind(
 -- sinkswitch keybind
 hl.bind(
 	"SUPER+X",
-	hl.dsp.exec_cmd(
-		"[workspace special:sinkswitch] kitty --class kitty-sinkswitch -e ~/scripts/sinkswitch.sh -exclude 46"
-	)
+	hl.dsp.exec_cmd("kitty --class kitty-sinkswitch -e ~/scripts/sinkswitch.sh", { workspace = "special:sinkswitch" })
 )
 
 -- hyprwhspr
