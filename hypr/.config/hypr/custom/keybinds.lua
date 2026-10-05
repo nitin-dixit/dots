@@ -1,3 +1,6 @@
+local qsIpcCall = "qs -c $qsConfig ipc call"
+local qsIsAlive = qsIpcCall .. " TEST_ALIVE"
+
 hl.bind("XF86Calculator", hl.dsp.exec_cmd("gnome-calculator"))
 hl.bind("SUPER+Z", hl.dsp.exec_cmd("zathura"))
 hl.bind("SUPER+P", hl.dsp.exec_cmd("superproductivity"))
@@ -59,5 +62,22 @@ hl.bind(
 -- hyprwhspr
 hl.bind("SUPER+ALT+D", hl.dsp.exec_cmd("/usr/lib/hyprwhspr/config/hyprland/hyprwhspr-tray.sh record"))
 
---lauch fuzzel launcher
-hl.bind("SUPER+Space", hl.dsp.exec_cmd("fuzzel"))
+-- ============================================================================
+-- Custom search keybinds
+-- ============================================================================
+
+-- Remove the original end-4 search bindings
+hl.unbind("SUPER + SUPER_L")
+hl.unbind("SUPER + SUPER_R")
+
+-- Super → Fuzzel
+hl.bind(
+	"SUPER + SUPER_L",
+	hl.dsp.exec_cmd("pkill fuzzel || fuzzel"),
+	{ release = true, description = "Launcher: Toggle Fuzzel" }
+)
+
+hl.bind("SUPER + SUPER_R", hl.dsp.exec_cmd("pkill fuzzel || fuzzel"), { release = true })
+
+-- Super + Space → Quickshell search
+hl.bind("SUPER + SPACE", hl.dsp.global("quickshell:searchToggleRelease"), { description = "Shell: Toggle search" })
