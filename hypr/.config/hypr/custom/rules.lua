@@ -17,6 +17,12 @@ hl.window_rule({
 })
 
 hl.window_rule({
+	match = { class = "foot" },
+	no_blur = false,
+	opacity = 0.9,
+})
+
+hl.window_rule({
 	match = { class = "superproductivity" },
 	monitor = "eDP-1",
 	no_blur = false,
