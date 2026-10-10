@@ -8,6 +8,10 @@ fi
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+export TMUX_CONF="$HOME/.config/tmux/tmux.conf" # tmux
+#path to cargo
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Path to whisper-cli
 # export PATH="$HOME/whisper.cpp/build/bin/whisper-cli"
 # Set name of the theme to load --- if set to "random", it will
@@ -85,7 +89,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize aliases copybuffer copyfile copypath alias-finder archlinux history zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat zsh-interactive-cd fzf eza golang vi-mode globalias volta)
+plugins=(git colorize aliases copybuffer copyfile copypath alias-finder archlinux history zsh-syntax-highlighting you-should-use zsh-bat zsh-interactive-cd fzf eza golang vi-mode globalias volta)
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
@@ -139,6 +143,10 @@ alias mysql="docker run -ti --rm alpine/mysql"
 alias c="clear"
 alias e="exit"
 alias vim="nvim"
+alias n="nvim"
+alias tree='eza --tree --icons'
+alias wm='workmux'
+
 # lazygit
 alias lg="lazygit"
 # Tmux 
@@ -217,7 +225,26 @@ bindkey -r "^G"
 #ssh-add ~/.ssh/github_nitin-dixit
 #ssh-add ~/.ssh/github_nitinXdixit
 
-# starship prompt
+# options
+setopt append_history
+setopt share_history
+setopt hist_ignore_dups
+setopt hist_expire_dups_first
+setopt hist_find_no_dups
+setopt hist_reduce_blanks
+setopt no_beep
+setopt inc_append_history
+
+# history
+HISTFILE=${ZDOTDIR}/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+
+
+bindkey '^K' up-line-or-history
+bindkey '^J' down-line-or-history
+
+
 #eval "$(starship init zsh)"
 
 # greeting message
@@ -241,3 +268,12 @@ export PATH=$PATH:/home/nitin/.spicetify
 
 # opencode
 export PATH=/home/nitin/.opencode/bin:$PATH
+
+if [[ -r "$HOME/.local/share/deja/init.zsh" ]]; then
+  source "$HOME/.local/share/deja/init.zsh"
+else
+  eval "$(deja init zsh)"
+fi
+
+
+eval "$(workmux completions zsh)"
