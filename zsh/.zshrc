@@ -144,7 +144,7 @@ alias c="clear"
 alias e="exit"
 alias vim="nvim"
 alias n="nvim"
-alias tree='eza --tree --icons'
+alias tree='eza --tree --icons auto'
 alias wm='workmux'
 
 # lazygit
