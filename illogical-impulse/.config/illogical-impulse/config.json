@@ -73,7 +73,7 @@
     "hideWhenFullscreen": true,
     "parallax": {
       "autoVertical": false,
-      "enableSidebar": true,
+      "enableSidebar": false,
       "enableWorkspace": false,
       "vertical": false,
       "widgetsFactor": 1.2,
@@ -110,7 +110,7 @@
           "showDate": true,
           "vertical": false
         },
-        "enable": true,
+        "enable": false,
         "placementStrategy": "free",
         "quote": {
           "enable": true,
@@ -183,10 +183,7 @@
     "workspaces": {
       "alwaysShowNumbers": false,
       "monochromeIcons": false,
-      "numberMap": [
-        "1",
-        "2"
-      ],
+      "numberMap": ["1", "2"],
       "showAppIcons": true,
       "showNumberDelay": 300,
       "shown": 5,
@@ -228,10 +225,7 @@
     "hoverToReveal": true,
     "ignoredAppRegexes": [],
     "monochromeIcons": true,
-    "pinnedApps": [
-      "org.kde.dolphin",
-      "kitty"
-    ],
+    "pinnedApps": ["org.kde.dolphin", "kitty"],
     "pinnedOnStartup": false
   },
   "hacks": {
@@ -257,11 +251,7 @@
     "ui": "auto"
   },
   "launcher": {
-    "pinnedApps": [
-      "org.kde.dolphin",
-      "kitty",
-      "cmake-gui"
-    ]
+    "pinnedApps": ["org.kde.dolphin", "kitty", "cmake-gui"]
   },
   "light": {
     "antiFlashbang": {
@@ -326,7 +316,7 @@
   "overview": {
     "centerIcons": true,
     "columns": 5,
-    "enable": true,
+    "enable": false,
     "orderBottomUp": false,
     "orderRightLeft": false,
     "rows": 2,
@@ -359,8 +349,8 @@
     }
   },
   "resources": {
-    "historyLength": 60,
-    "updateInterval": 3000
+    "historyLength": 10,
+    "updateInterval": 100000
   },
   "screenRecord": {
     "savePath": "/home/nitin/Videos"
@@ -370,10 +360,7 @@
   },
   "search": {
     "engineBaseUrl": "https://www.google.com/search?q=",
-    "excludedSites": [
-      "quora.com",
-      "facebook.com"
-    ],
+    "excludedSites": ["quora.com", "facebook.com"],
     "imageSearch": {
       "imageSearchEngineBaseUrl": "https://lens.google.com/uploadbyurl?url=",
       "useCircleSelection": false
@@ -414,7 +401,7 @@
       "valueScroll": true,
       "visualize": false
     },
-    "keepRightSidebarLoaded": true,
+    "keepRightSidebarLoaded": false,
     "quickSliders": {
       "enable": true,
       "showBrightness": true,
@@ -496,9 +483,7 @@
     "filterPassive": true,
     "invertPinnedItems": true,
     "monochromeIcons": true,
-    "pinnedItems": [
-      "Fcitx"
-    ],
+    "pinnedItems": ["Fcitx"],
     "showItemId": false
   },
   "updates": {

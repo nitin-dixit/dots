@@ -196,7 +196,7 @@ bindkey -M viins 'jj' vi-cmd-mode
 
 export EDITOR=nvim
 export Visual=nvim
-export TERMINAL=ghostty
+export TERMINAL=foot
 
 bindkey -M viins '^P' up-line-or-beginning-search
 bindkey -M viins '^N' down-line-or-beginning-search
