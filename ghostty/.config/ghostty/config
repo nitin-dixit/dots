@@ -23,7 +23,7 @@
 # Cycles are not allowed. If a cycle is detected, an error will be logged and
 # the configuration file will be ignored.
 #config-file = ghostty-theme
-theme = Matugen
+theme = noctalia
 config-file= ./auto/theme.ghostty
 #custom theme 
 gtk-custom-css = tab-style.css

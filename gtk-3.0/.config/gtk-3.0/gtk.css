@@ -60,3 +60,5 @@
 
 @define-color dialog_bg_color #2d282e;
 @define-color dialog_fg_color #e9e0e7;
+
+@import url("noctalia.css");

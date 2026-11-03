@@ -81,3 +81,6 @@ hl.bind("SUPER + SUPER_R", hl.dsp.exec_cmd("pkill fuzzel || fuzzel"), { release 
 
 -- Super + Space → Quickshell search
 hl.bind("SUPER + SPACE", hl.dsp.global("quickshell:searchToggleRelease"), { description = "Shell: Toggle search" })
+
+-- Oxford Learner's Dictionary ───────────────────────────────────────────
+hl.bind("SUPER + SHIFT + D", hl.dsp.exec_cmd(HOME .. "/Developer/nitin-dixit/omaxfordlearners/bin/def"))

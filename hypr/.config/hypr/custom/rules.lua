@@ -65,3 +65,12 @@ hl.window_rule({
 	no_blur = false,
 	opacity = 0.9,
 })
+
+hl.window_rule({
+	float = true,
+	match = { class = "com.github.toghroltp.def|def|omaxfordlearners" },
+	center = true,
+	size = "620 680",
+	dim_around = true,
+	stay_focused = true,
+})
